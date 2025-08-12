@@ -3,7 +3,8 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class UsersService {
   findAll() {
-    return [{
+    return [
+      {
         name: 'Ashraful',
         aeg: 18,
       },
